@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visita Corea del Norte</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="logo corea" class="logo-img">
+                    </a>
+                </div>
+                <button class="hamburguesa" id="hamburguesa" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="tours.html">Tours</a></li>
+                        <li class="nav-dropdown">
+                            <a href="#">Nosotros</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="acerca.html">Acerca</a></li>
+                                <li><a href="contactanos.html">Contáctanos</a></li>
+                            </ul>
+                        </li>        
+                    </ul>
+                    <div class="idiomas-cel"> 
+                        <a href="#">ES</a>
+                        <span>/</span>
+                        <a href="#">EN</a>
+                    </div>
+                </div>
+                <div class="nav-right">
+                    <div class="idiomas">
+                        <ul>
+                            <li><a href="#">ES</a></li>
+                            <li><a href="#">/</a></li>
+                            <li><a href="#">EN</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="inicio-content">
+        <section class="hero">
+            <div class="hero-texto">
+                <div class="hero-fila">
+                    <h1 class="visita">Visita</h1>   
+                    <h1 class="corea">Corea</h1>
+                </div>
+                <h1 class="del-norte">Del Norte</h1>
+                <h1 class="tierra">"la tierra del eterno amanecer"</h1>
+                <a href="#contenido" class="flecha-abajo">
+                    <img src="images/flecha.svg" alt="flecha">
+                    <span class="flecha-texto">Ver más</span>
+                </a>
+            </div>
+            
+        </section>
+
+        
+        <div id="contenido"></div>
+        
+        <section class="galeria">
+            <div class="saludo-hora-wrap">
+                <p class="saludo-hora" id="saludohora"></p>
+            </div>
+            <div class="galeria-carrusel">
+                <div class="cr-wrap">
+                    <button class="cr-btn" id="carruselPrev">&lt;</button>
+                    <div class="cr-ventana">
+                        <div class="cr-track" id="carruselTrack"></div>
+                    </div>
+                    <button class="cr-btn" id="carruselNext">&gt;</button>
+                </div>
+            </div>
+            <div class="galeria-texto">
+                <h2 class="galeria-titulo">Enamórate de COREA ❤️💙</h2>
+                <p class="galeria-parrafo">Échale un vistazo a los <span class="galeria-parrafo-span">hermosos paisajes</span> que Corea del Norte tiene para ofrecerte. Déjate cautivar por los <span class="galeria-parrafo-span">hermosos lagos</span>, las <span class="galeria-parrafo-span">increibles montañas</span>, los <span class="galeria-parrafo-span">majestuosos horizontes</span> y las <span class="galeria-parrafo-span">maravillosas estructuras</span> que nos representan. Corea te ofrece <span class="galeria-parrafo-span">experiencias únicas</span> que te quitarán el aliento y que te harán no querer irte <span class="galeria-parrafo-span">Nunca Más</span>. Estas vacaciones... <span class="galeria-parrafo-span2">Te mereces conocer Corea del Norte.</span></p>
+            </div>
+            
+            
+        </section>
+        <div class="carrusel-modal" id="carruselModal">
+            <button class="carrusel-modal-close" id="carruselModalClose">&#x2715;</button>
+            <img class="carrusel-modal-img" id="carruselModalImg" src="" alt="">
+        </div>
+
+
+        <div id="contenido"></div>
+        
+
+        <section class="contenido">
+            <div class="cartitas">
+
+                <article class="carta">
+                    <img src="images/paektu-monte.jpg" alt="imagen del monte paektu">
+                    <div class="carta-texto">
+                        <h2>Monte Paektu</h2>
+                        <p>Explora el Monte Paektu: la cuna espiritual de la revolución coreana</p>
+                    </div>
+                </article>
+
+                <article class="carta">
+                    <img src="images/kumsusan.jpg" alt="imagen del palacio kumsusan">
+                    <div class="carta-texto">
+                        <h2>Palacio Kumsusan</h2>
+                        <p>Admira el Palacio Kumsusan: el mausoleo más grande del mundo dedicado a los líderes eternos</p>
+                    </div>
+                </article>
+
+                <article class="carta">
+                    <img src="images/mansudae.jpg" alt="imagen del monumento mansudae">
+                    <div class="carta-texto">
+                        <h2>Mansudae</h2>
+                        <p>Rinde homenaje en el Gran Monumento Mansudae: La representación del liderazgo y la unidad de Corea del Norte. </p>
+                    </div>
+                </article>
+
+                <article class="carta">
+                    <img src="images/triunfo.jpg" alt="imagen del arco del triunfo en Pyongyang">
+                    <div class="carta-texto">
+                        <h2>Arco del triunfo</h2>
+                        <p>Honra el glorioso Arco del Triunfo Norcoreano: Un homenaje a la revolución de toda una nación</p>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="ampliar-text">
+                <p> ¡Toca cualquier imágen para Ampliarla! </p>
+            </div>
+
+            <div class="explorar">
+                <a href="tours.html" class="explorar-boton">Explorar tours</a>
+            </div>
+
+        </section>
+
+
+    </main>
+    <footer class="pie-de-pagina">
+        <p><span>© 2026 SomosCorea</span> -  <a href="index.html">Inicio</a> - <a href="tours.html">Tours</a> - <a href="acerca.html">Acerca</a> - <a href="contactanos.html">Contacto</a> <span>email: somos.corea@kimail.com</span><span>tel: +850 1 234 5678</span><span>Creador: Juan Rolando Rojas Galvis</span></p>
+
+    </footer>
+    <div class="overlay" id="overlay"></div>
+    <script src="javascript/main.js"></script>
+    <div class="carta-modal" id="cartaModal">
+        <button class="carrusel-modal-close" id="cartaModalClose">&#x2715;</button>
+        <div class="carta-modal-contenido">
+            <img class="carta-modal-img" id="cartaModalImg" src="" alt="">
+            <div class="carta-modal-texto">
+                <h2 class="carta-modal-titulo" id="cartaModalTitulo"></h2>
+                <p class="carta-modal-parrafo" id="cartaModalParrafo"></p>
+                <a href="tours.html" class="explorar-boton">Explorar tours</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
